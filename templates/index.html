@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CrewAI Content Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #222;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+
+        .result {
+            margin-top: 25px;
+            padding: 20px;
+            background: #eef2ff;
+            border-left: 4px solid #2563eb;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Multi-Agent Content Generator</h1>
+    <p>Enter a topic and let CrewAI agents research, write, and review the content.</p>
+
+    <form method="POST">
+        <input type="text" name="topic" placeholder="Example: AI in healthcare" required>
+        <button type="submit">Generate Content</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h3>Generated Output:</h3>
+        <p>{{ result }}</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
