@@ -1,102 +1,28 @@
-\# AI Multi-Agent Content Generator
-
-
-
-A Flask-based web application that generates clean, structured content using AI.
-
-
-
-This project simulates a \*\*multi-agent workflow\*\* where AI performs:
-
-\- Research
-
-\- Writing
-
-\- Review
-
-
-
-\---
-
-
-
-\## 🚀 Features
-
-
-
-\- Dynamic topic input from user
-
-\- AI-powered content generation (Gemini API)
-
-\- Clean and readable output
-
-\- Simple and responsive UI
-
-\- Backend powered by Flask
-
-
-
-\---
-
-
-
-\## 🧠 How It Works
-
-
-
-1\. User enters a topic
-
-2\. Backend processes input
-
-3\. AI generates structured content
-
-4\. Output is cleaned and displayed
-
-
-
-Workflow:
-
-
-
-Research → Writing → Review → Final Output
-
-
-
-\---
-
-
-
-\## 🛠️ Tech Stack
-
-
-
-\- Python
-
-\- Flask
-
-\- Google Gemini API
-
-\- HTML / CSS
-
-\- dotenv
-
-
-
-\---
-
-
-
-\## ⚙️ Setup Instructions
-
-
-
-Clone the repo:
-
-
-
-```bash
-
-git clone https://github.com/Pratik-Pol/multiagent-crewai.git
-
-cd multiagent-crewai
-
+# AI Multi-Agent Content Generator
+
+A Flask-based web application that generates structured content using a multi-agent AI workflow.
+The project simulates how different AI stages can collaborate to research, write, and review content before generating a final output.
+
+## Overview
+
+This project was created to explore how AI workflows can be divided into smaller task-specific stages instead of relying on a single prompt.
+The application processes user input through multiple AI stages:
+- Research
+- Writing
+- Review
+This helps produce cleaner and more structured content.
+
+---
+
+## Workflow
+
+```text
+User Input
+   ↓
+Research Agent
+   ↓
+Writing Agent
+   ↓
+Review Agent
+   ↓
+Final Output
