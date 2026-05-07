@@ -14,6 +14,22 @@ This helps produce cleaner and more structured content.
 
 ---
 
+## How This Project Helped Me
+
+This project helped me understand how AI workflows can be structured into smaller task-specific stages instead of handling everything in a single prompt.
+While building this project, I improved my understanding of:
+
+- Flask backend development
+- API integration using Gemini API
+- Prompt structuring and response handling
+- Managing application flow between multiple AI stages
+- Environment configuration using dotenv
+- Building and organizing a complete project from scratch
+
+It also gave me hands-on experience in connecting frontend interaction with backend AI processing.
+
+---
+
 ## Workflow
 
 ```text
