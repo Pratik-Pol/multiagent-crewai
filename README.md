@@ -30,6 +30,13 @@ It also gave me hands-on experience in connecting frontend interaction with back
 
 ---
 
+## Features
+
+![Homepage](screenshots/homepage.png)
+![Output](screenshots/output.png)
+
+---
+
 ## Workflow
 
 ```text
