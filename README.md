@@ -32,7 +32,7 @@ It also gave me hands-on experience in connecting frontend interaction with back
 
 ## Features
 
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/Homepage.png)
 ![Output](screenshots/output.png)
 
 ---
